@@ -1,5 +1,5 @@
 {
-  "name": "my-main-fitness-project",
+  "name": "fitness-project",
   "source": "src/index.html",
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
