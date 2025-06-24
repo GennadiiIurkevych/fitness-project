@@ -5,7 +5,7 @@
   "types:*.{ts,tsx}": [
       "@parcel/transformer-typescript-types"
     ],
-  "main": "src/app.js",
+  "master": "src/app.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   
   "scripts": {
