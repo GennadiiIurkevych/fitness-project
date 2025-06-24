@@ -5,8 +5,10 @@
   "types": "dist/types.d.ts",
   "main": "src/app.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-    "transformers": {
-    "types:*.{ts,tsx}": ["@parcel/transformer-typescript-types"]
+  "transformers": {
+    "types:*.{ts,tsx}": [
+      "@parcel/transformer-typescript-types"
+    ]
   },
   "scripts": {
     "start": "parcel",
