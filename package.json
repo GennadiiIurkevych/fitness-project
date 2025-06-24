@@ -1,7 +1,7 @@
 {
   "name": "fitness-project",
   "source": "src/index.html",
-  "module": "dist/module.js",
+  "module": "dist/module.html",
   "types:*.{ts,tsx}": [
       "@parcel/transformer-typescript-types"
     ],
