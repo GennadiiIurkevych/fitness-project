@@ -1,0 +1,23 @@
+{
+  "name": "my-main-fitness-project",
+  "source": "src/index.html",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "main": "src/app.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.15.4",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

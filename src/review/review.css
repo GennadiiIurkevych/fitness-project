@@ -1,0 +1,255 @@
+.review input[type=radio] {
+  display: none;
+}
+
+.review .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .75rem;
+  max-width: 82rem;
+  margin-left: .5rem;
+}
+
+.review .row .content {
+  flex: 1 1 32rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.review .row .content h2 {
+  font-size: var(--big-fz);
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.review .row .content h3 {
+  font-size: var(--small-fz);
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.review .row .content p {
+  font-size: var(--small-fz);
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  color: var(--text-color);
+}
+
+.review .row .content .controls {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.review .row .content .controls label {
+  display: inline-block;
+  margin: 0 .5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.review .row .content .controls label:hover {
+  background-color: var(--main-color);
+}
+
+.review .row .box-container {
+  flex: 1 1 40rem;
+  display: flex;
+  overflow: hidden;
+  border-radius: 1rem;  
+  box-shadow: var(--box-shadow);
+  background-color: var(--ligth-black);
+  max-width: 32rem;
+}
+
+
+.review .row .box-container .review-box {
+  flex: 1 0 100%;
+  text-align: center;
+  background-color: var(--ligth-black);
+  padding: 3rem 1rem;
+  margin: 0 auto;  
+  
+}
+
+.btn-review {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  background-color: var(--main-color);
+  border-radius: .5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.btn-review:hover {
+  box-shadow: 0 .3rem 1rem var(--main-color);
+}
+
+.review .row .box-container .review-box img {
+  width: 32rem;
+  height: 32rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+}
+
+.review .row .box-container .review-box h3 {
+  font-size: var(--small-fz);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.review .row .box-container .review-box p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+
+iframe {
+  width: 28rem;
+  height: 32rem;
+  border-radius: 1rem;
+}
+
+.stars {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 8rem;
+  gap: 1rem;
+}
+
+.review .row .box-container .review-box .stars svg.bi {
+  width: 2rem;
+  height: 2rem;
+  color: rgb(4, 52, 119)!important;
+}
+
+#r1:checked ~ .row .box-container .review-box:first-child {
+  margin-left: 0%;
+}
+
+#r2:checked ~ .row .box-container .review-box:first-child {
+  margin-left: -100%;
+}
+
+#r3:checked ~ .row .box-container .review-box:first-child {
+  margin-left: -200%;
+}
+
+#r4:checked ~ .row .box-container .review-box:first-child {
+  margin-left: -300%;
+}
+
+
+@media screen and (max-width: 1321px) {
+  .review .row .box-container { 
+    margin-right: -5rem;
+  }
+  .review .row {
+    max-width: 75rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .review .row .box-container { 
+    margin-right: -3.5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .review .row .box-container { 
+    margin-right: -2.5rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .review .row .box-container { 
+    margin-right: -1.25rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .review .row .box-container { 
+    margin-right: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .review .row .box-container { 
+    margin-right: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .review .row .content {
+    flex: 1 1 20rem;
+  }
+  .review .row .box-container { 
+    margin-right: 2.75rem;
+  }
+  .review .row .box-container .review-box {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .review .row {
+    margin-left: 6.5rem;
+  }
+  .review .row .content {
+    flex: 1 1 30rem;
+  }
+  .review .row .box-container { 
+    margin-right: -.75rem;
+    max-width: 40rem;
+  }
+  .review .row .box-container .review-box {
+    padding: 2rem 1rem;
+  }
+  .review .row .box-container .review-box img {
+    width: 36rem;
+    margin: 1rem auto;
+  }
+  iframe {
+    margin: 0 auto;
+  }
+  .stars {
+    margin-top: 1rem;
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  div.content p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .review .row .box-container .review-box img {
+    margin-left: 13rem;
+  }
+
+  .review .row .box-container {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+      .review .row {
+        margin-left: 1.5rem;
+        margin-bottom: 6rem;
+    }
+
+
+  .review .row .box-container .review-box img {
+    margin-left: 0;
+  }
+}

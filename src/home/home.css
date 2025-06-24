@@ -1,0 +1,248 @@
+
+.home-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem 3rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+}
+
+.home-section .home-content {
+  flex: 1 1 36rem;
+}
+
+.home-content .home-img {
+  flex: 1 1 40rem;
+}
+
+.home-content {
+  margin-left: 3rem;
+}
+
+.home-section::before {
+  content: "FITNESS";
+  position: absolute;
+  top: 3rem;
+  right: 5rem;
+  line-height: 7rem;
+  font-weight: 800;
+  color: var(--text-color);
+  opacity: 0.05;
+  font-size: 18rem;
+}
+
+.home-content::before {
+  content: "WEIGHTLIFTING";
+  position: absolute;
+  top: 15rem;
+  right: .5rem;
+  line-height: 7rem;
+  font-weight: 700;
+  color: var(--text-color);
+  opacity: 0.05;
+  font-size: 10rem;
+}
+
+.home-content h4 {
+  margin-bottom: 1rem; 
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-color);
+  max-width: fit-content;
+}
+
+.home-content h2 {
+  margin-bottom: 1rem;
+  font-size: var(--big-fz);
+  font-weight: 800;
+  line-height: 6rem;
+  color: var(--text-color);
+}
+
+.home-content h2 span {
+  -webkit-text-fill-color: var(--black);
+  -webkit-text-stroke: 4px var(--main-color);
+  font-size: 5.5rem;
+}
+
+.home-content p {
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  font-size: 1.6rem;
+  max-width: 36rem;
+}
+
+.club-name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+span.club-name:hover {
+  font-size: 3rem; 
+}
+
+.home-img {
+  width: 500px;
+  height: 650px;
+  margin-right: 2.5rem;
+  z-index: 1;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  background-color: var(--main-color);
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.a-home {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.btn-home:hover {
+  box-shadow: 0 .3rem 1rem var(--main-color);
+}
+
+.bg-blur {
+  position: absolute;
+  box-shadow: 0 0 100rem 8rem var(--main-color);
+  z-index: -1;
+}
+@media screen and (max-width: 1221px) {
+  .home-content h4 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+  .home-img {
+    width: 28rem;
+    height: 36rem;
+    margin-right: 2.5rem;
+  }
+  .home-content h4 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .home-content h2 {
+    font-size: var(--medium-fz);
+    line-height: 5rem;
+  }
+  .home-content p {
+    max-width: 32rem;
+    font-size: 1.4rem;
+  }
+  .home-section .home-content {
+    flex: 30rem
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-section::before {
+    right: 4rem;
+    font-size: 18rem;
+  }
+  .home-content::before {
+    right: 2rem;
+    font-size: 10rem;
+  }
+  .home-img {
+    width: 28rem;
+    height: 34rem;
+    margin-right: 2.5rem;
+  }
+  .home-content p {
+    max-width: 28rem;
+    font-size: 1.2rem;
+  }
+  .home-content h2 span {
+    font-size: 4.5rem;
+  }
+  .home-section .home-content {
+    flex: 24rem
+  }
+  .home-img {
+    width: 24rem;
+    height: 30rem;
+    margin-right: 2.5rem;
+  }
+  .home-content h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-img {
+    width: 32rem;
+    height: 40rem;
+  }
+  .home-content h4 {
+    font-size: 2.6rem;
+    font-weight: 800;
+  }
+  .home-content h2 {
+    font-size: var(--big-fz);
+    line-height: 5rem;
+  }
+  .home-content p {
+    max-width: 36rem;
+    font-size: 1.6rem;
+  }
+  .home-section .home-content {
+    flex: 30rem
+  }
+}
+    
+@media screen and (max-width: 375px) {
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-section::before {
+    top: 54%;
+    right: 4rem;
+    font-size: 9rem;
+  }
+  .home-content {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .home-content::before {
+    top: 66%;
+    right: 2rem;
+    font-size: 5rem;
+  }
+
+  .home-content h4 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h2 span {
+    font-size: 5.5rem;
+  }
+
+  .btn {
+    width: 20rem;
+  }
+
+  .home-img {
+    margin-top: -1rem;
+    width: 444px;
+    height: 544px;
+  }
+} 

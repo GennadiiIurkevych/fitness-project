@@ -1,0 +1,35 @@
+@import url(./header/header.css);
+@import url(./home/home.css);
+@import url(./fitness/fitnes.css);
+@import url(./weightlifting/weightlifting.css);
+@import url(./rehabilitation/rehabilitation.css);
+@import url(./price/price.css);
+@import url(./review/review.css);
+@import url(./coach/about.css);
+@import url(./contacts/contacts.css);
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  max-width: 3024px;
+  background-color: rgb(4, 52, 119);
+}
+
+:root {
+  --main-color: yellow;
+  --black: #161616;
+  --ligth-black: #212121;
+  --text-color: #ffff;
+  --max-width: 3024px;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .7);
+  --big-fz: calc(20px + (50 - 30) * ((100vw - 300px) / (1300 - 300)));
+  --medium-fz: calc(18px + (20 - 18) * ((100vw - 300px) / (1300 - 300)));
+  --small-fz: calc(15px + (18 - 15) * ((100vw - 300px) / (1300 - 300)));
+}
+
+body {
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
+}

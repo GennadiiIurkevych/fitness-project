@@ -1,0 +1,257 @@
+.team {
+  background-color: var(--ligth-black);
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  padding-top: 1rem;
+}
+
+.coach-info {
+  color: var(--text-color);
+  margin-left: 2rem;
+  text-align: center; 
+}
+
+.coach-name {
+  color: var(--main-color);
+  margin-top: -4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+
+.team .box-container .team-box {
+  border-radius: 1rem;
+  position: relative;
+  height: 40rem;
+  transition: all .5s;
+  margin-right: 1.5rem;
+}
+
+.team .box-container .team-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  background-color: rgb(4, 52, 119);
+  margin-top: 1rem;
+}
+
+.img-about {
+  width: 48%;
+  height: 70%;
+  display: flex;
+  margin-left: 2rem;
+  gap: 1rem;
+}
+
+.team .box-container .team-box .trainer-info {
+  position: relative;
+  top: 5rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--ligth-black);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+hr.about {
+    display: none;
+  }
+.team .box-container .team-box:hover .trainer-info {
+  transform: translateY(0);
+}
+
+
+
+.team .box-container .team-box .trainer-info .share {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  border-top: .2rem solid rgb(4, 52, 119);
+  margin-left: 1rem;
+}
+
+.coach-name_contact {
+  display: flex;
+  position: absolute;
+  margin-left: -54rem;
+  margin-top: 1.25rem;
+  font-size: 1.75rem;
+  color: var(--main-color);
+}
+
+.coach-name_contact svg {
+  margin-left: 2rem;
+  margin-top: 1.2rem;
+  
+}
+
+.team .box-container .team-box .trainer-info .share a {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.team .box-container .team-box .trainer-info .share a svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.team .box-container .team-box .trainer-info .share a:hover {
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 1321px) {
+  .coach-name_contact {
+    margin-left: -52rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .coach-name_contact {
+    margin-left: -50rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .coach-name_contact {
+    margin-left: -49rem;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .coach-name_contact {
+    margin-left: -48rem;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .coach-name_contact {
+    margin-left: -46rem;
+  }
+  .coach-name_contact svg {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .team .box-container {
+    max-height: 32rem;
+  }
+  .team .box-container .team-box .trainer-info {
+    padding: 0rem;
+  }
+  .team .box-container .team-box img {
+    height: 73%;
+    margin-top: 1rem;
+  }
+  h3.coach-info {
+    font-size: 1.4rem;
+  }
+  h3.coach-name {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    margin-top: -10rem;
+  }
+  .coach-name_contact {
+    margin-left: -38rem;
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+  }
+  .coach-name_contact svg {
+    margin-left: 1rem;
+    margin-top: .75rem;
+    margin-right: 1rem;
+  }
+  .team .box-container .team-box .trainer-info .share {
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: -10rem;
+  }
+  .team .box-container .team-box .trainer-info .share a {
+    font-size: 1.5rem;
+    margin-right: .7rem;
+    margin-top: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-about {
+    height: 96%;
+  }
+  h3.coach-name {
+    margin-top: -13rem;
+    font-size: 2rem;
+    margin-bottom: -.25rem;
+  }
+  .team .box-container {
+    max-height: 40rem;
+  }
+  .team .box-container .team-box .trainer-info {
+    margin-top: -1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .img-about {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .team {
+    height: 72rem;
+    margin-top: -18rem;
+  }
+  .trainer-info {
+    margin-top: 9rem;
+  }
+  .coach-info {
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .team .box-container .team-box .trainer-info {
+    margin-top: 20rem;
+  }
+  hr.about {
+    display: block;
+    position: absolute;
+    width: 94%;
+    color: rgb(4, 52, 119) !important;
+    margin-right: 18rem !important;
+    margin-top: 0 !important;
+    height: 4px !important;
+  }
+      .coach-name_contact {
+        margin-top: 1.5rem;
+        margin-left: -37rem;
+        font-size: 1.4rem;
+    }
+    .team .box-container .team-box .trainer-info .share {
+      border-top: none;
+      margin-left: 21rem;
+    }
+    .team .box-container .team-box .trainer-info .share a {
+        margin-top: 1.7rem;
+      margin-left: .1rem;
+    }
+  .img-about {
+    width: 94%;
+    height: 100%;
+    flex-direction: column;
+ 
+  }
+  .team {
+    height: 75rem;
+    margin-top: -18rem;
+  }
+  .trainer-info {
+    margin-top: 9rem;
+  }
+  .coach-info {
+    padding-right: 1rem;
+  }
+}
