@@ -71,21 +71,10 @@ export default class Fitness {
           fitnessElement.innerHTML = this.getTemplate();
           this.fitnessElement = fitnessElement;
 
-    // const img1 = document.createElement('img');
-    //       img1.className = "fitness-img"; 
-    //       img1.src = new URL('./img/GirlFlex2.png', import.meta.url);  
-
-    //       fitnessElement.append(img1);
-
-    // const img3 = document.createElement('img');
-    //       img3.className = "fitness-img"; 
-    //       img3.src = new URL('./img/WomanBody.png', import.meta.url);
-
-    //       fitnessElement.append(img3);
 
     // const img2 = document.createElement('img');
     //       img2.className = "fitness-img"; 
-    //       img2.src = new URL('./img/GirlFlex2.png', import.meta.url);
+    //       img2.src = new URL('./img/Running.png', import.meta.url);
 
     //       fitnessElement.append(img2);
 

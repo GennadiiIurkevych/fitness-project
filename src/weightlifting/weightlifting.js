@@ -59,7 +59,7 @@ export default class Weightlifting {
 
     // const img = document.createElement('img');
     //       img.className = "weightlifting-img"; 
-    //       img.src = new URL('./img/WL_CleanWoman.png', import.meta.url);
+    //       img.src = new URL('./img/WL_2.png', import.meta.url);
           
     //       weightliftingElement.append(img);
 

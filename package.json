@@ -1,10 +1,8 @@
 {
   "name": "fitness-project",
   "source": "src/index.html",
-  "module": "dist/module.html",
-  "types:*.{ts,tsx}": [
-      "@parcel/transformer-typescript-types"
-    ],
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
   "master": "src/app.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   

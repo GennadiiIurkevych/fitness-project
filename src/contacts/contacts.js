@@ -140,7 +140,7 @@ export default class Contacts {
 
     // const img = document.createElement('img');
     //       img.className = "contacts-img"; 
-    //       img.src = new URL('./img/Olimp logo.png', import.meta.url);
+    //       img.src = new URL('./img/Eleks.png', import.meta.url);
           
     //       contactsElement.append(img);
 

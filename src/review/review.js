@@ -137,7 +137,7 @@ export default class Review {
 
     // const img1 = document.createElement('img');
     //       img1.className = "fitness-img"; 
-    //       img1.src = new URL('./img/OrbiTreck.jpg', import.meta.url);  
+    //       img1.src = new URL('./img/Hyprextention.jpg', import.meta.url);  
 
     //       reviewElement.append(img1);
 

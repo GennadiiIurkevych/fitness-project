@@ -83,7 +83,7 @@ export default class Rehabilitation {
 
     // const img1 = document.createElement('img');
     //       img1.className = "fitness-img"; 
-    //       img1.src = new URL('./img/rehabilitation.png', import.meta.url);  
+    //       img1.src = new URL('./img/vertebraeRentgen.png', import.meta.url);  
 
     //       rehabilitationElement.append(img1);
 
