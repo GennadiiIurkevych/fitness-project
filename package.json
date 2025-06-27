@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel",
     "watch": "parcel watch",
-    "build": "parcel build src/index.html"
+    "build": "rm -rf /dist && parcel build src/index.html --no-optimize"
+
   },
   "dependencies": {
     "aos": "^2.3.4",
