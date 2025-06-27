@@ -74,7 +74,7 @@ export default class Fitness {
 
     // const img2 = document.createElement('img');
     //       img2.className = "fitness-img"; 
-    //       img2.src = new URL('./img/Running.png', import.meta.url);
+    //       img2.src = new URL('./img/ManGrow.png', import.meta.url);
 
     //       fitnessElement.append(img2);
 
