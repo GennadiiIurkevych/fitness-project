@@ -71,7 +71,7 @@ export default class About {
 
     // const img = document.createElement('img');
     //       img.className = "about-img"; 
-    //       img.src = new URL('./img/Gennadii-Trenajer.png', import.meta.url);
+    //       img.src = new URL('./img/GennadiiWL.jpg', import.meta.url);
           
     //       aboutElement.append(img);
 
