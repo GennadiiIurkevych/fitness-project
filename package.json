@@ -6,7 +6,6 @@
     "start": "parcel",
     "watch": "parcel watch",
     "build": "rm -rf /dist && parcel build src/index.html --no-optimize"
-
   },
   "dependencies": {
     "aos": "^2.3.4",
