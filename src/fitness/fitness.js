@@ -1,19 +1,17 @@
-
 export default class Fitness {
-  constructor (fitness) {
-    this.fitness = fitness;
-    this.render();
-  }
+    constructor(fitness) {
+        this.fitness = fitness;
+        this.render();
+    }
 
-
-  getTemplate () {
-    return `
+    getTemplate() {
+        return `
       <section class="services" id="fitness">
 
         <h3 class="heading" data-aos="fade-down" data-aos-delay="50">Наші пропозиції за фітнес програмою</h3>
 
-        <div class="services-img">
-          <img src="http://localhost:1234/AboutMyself.0fb89b79.jpg?1738428970920" data-aos="fade-up" data-aos-delay="100" alt="image">
+        <div class="services-img" id="foo">
+         
         </div>
 
         <div class="fitness-container">
@@ -61,23 +59,25 @@ export default class Fitness {
         </div>  
 
       </div>
-    `
-  }
+    `;
+    }
 
-  render() {
-    const fitnessElement = document.createElement('div');
-          fitnessElement.className = "programms";
-          fitnessElement.id = "fitness";
-          fitnessElement.innerHTML = this.getTemplate();
-          this.fitnessElement = fitnessElement;
+    render() {
+        const fitnessElement = document.createElement("div");
+        fitnessElement.className = "programms";
+        fitnessElement.id = "fitness";
+        fitnessElement.innerHTML = this.getTemplate();
+        this.fitnessElement = fitnessElement;
 
+        const img2 = document.createElement("img");
 
-    // const img2 = document.createElement('img');
-    //       img2.className = "fitness-img"; 
-    //       img2.src = new URL('./img/ManGrow.png', import.meta.url);
+        img2.className = "fitness-img";
+        img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
 
-    //       fitnessElement.append(img2);
+        console.log(fitnessElement);
+        const foo = fitnessElement.querySelector("#foo");
 
-  }
+        foo.append(img2);
+        //fitnessElement.append(img2);
+    }
 }
-
