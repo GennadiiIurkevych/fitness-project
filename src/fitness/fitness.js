@@ -10,15 +10,13 @@ export default class Fitness {
 
         <h3 class="heading" data-aos="fade-down" data-aos-delay="50">Наші пропозиції за фітнес програмою</h3>
 
-        <div class="services-img" id="foo">
-         
+        <div class="services-img" id="foo">  
         </div>
 
         <div class="fitness-container">
 
-          <ul class="strong" data-aos="fade-down" data-aos-delay="100">
+          <ul class="strong" data-aos="fade-down" data-aos-delay="100" id="biceps">
             <li>Зміцнення та розвиток сили м'язів усіх груп</li>
-            <img src="http://localhost:1234/ManFitness.b062a7fc.png?1743847666207">
           </ul>
 
           <ul class="fit" data-aos="fade-right" data-aos-delay="200">
@@ -70,14 +68,18 @@ export default class Fitness {
         this.fitnessElement = fitnessElement;
 
         const img2 = document.createElement("img");
+        const img3 = document.createElement("img");
 
         img2.className = "fitness-img";
         img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
+        img3.src = new URL("./img/ManFitness.png", import.meta.url);
 
-        console.log(fitnessElement);
         const foo = fitnessElement.querySelector("#foo");
+        const biceps = fitnessElement.querySelector("#biceps");
 
         foo.append(img2);
-        //fitnessElement.append(img2);
+        biceps.append(img3);
+
+
     }
 }
