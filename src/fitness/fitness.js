@@ -15,12 +15,12 @@ export default class Fitness {
 
         <div class="fitness-container">
 
-          <ul class="strong" data-aos="fade-down" data-aos-delay="100" id="biceps">
-            <li>Зміцнення та розвиток сили м'язів усіх груп</li>
+          <ul class="strong" data-aos="fade-down" data-aos-delay="100">
+            <li id="biceps">Зміцнення та розвиток сили м'язів усіх груп</li>
           </ul>
 
-          <ul class="fit" data-aos="fade-right" data-aos-delay="200" >  
-            <li id="fit">Укріплення та зміцнення зв'язок та сухожилок</li>
+          <ul class="fit" data-aos="fade-right" data-aos-delay="200" id="fit">  
+            <li >Укріплення та зміцнення зв'язок та сухожилок</li>
           </ul>
 
           <hr class="fitness">
@@ -82,7 +82,7 @@ export default class Fitness {
 
         foo.append(img2);
         biceps.append(img3);
-        fit.insertBefore(img4);
+        fit.append(img4);
 
 
     }
