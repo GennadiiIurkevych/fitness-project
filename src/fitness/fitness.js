@@ -19,8 +19,7 @@ export default class Fitness {
             <li>Зміцнення та розвиток сили м'язів усіх груп</li>
           </ul>
 
-          <ul class="fit" data-aos="fade-right" data-aos-delay="200">
-          <img src="http://localhost:1234/Girl2.43578fd0.png?1738489971185">  
+          <ul class="fit" data-aos="fade-right" data-aos-delay="200" id="fit">  
             <li>Укріплення та зміцнення зв'язок та сухожилок</li>
           </ul>
 
@@ -73,12 +72,16 @@ export default class Fitness {
         img2.className = "fitness-img";
         img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
         img3.src = new URL("./img/ManFitness.png", import.meta.url);
+        img4.src = new URL("./img/Girl2.png", import.meta.url);
 
         const foo = fitnessElement.querySelector("#foo");
         const biceps = fitnessElement.querySelector("#biceps");
+        const fit = fitnessElement.querySelector("#fit");
+        
 
         foo.append(img2);
         biceps.append(img3);
+        fit.append(img4);
 
 
     }
