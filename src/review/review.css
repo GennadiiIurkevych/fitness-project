@@ -189,11 +189,14 @@ iframe {
 }
 
 @media screen and (max-width: 1024px) {
+  .review-container {
+    max-width: 62rem;
+  }
   .review .row .content {
     flex: 1 1 20rem;
   }
   .review .row .box-container { 
-    margin-right: 2.75rem;
+    margin-right: .75rem;
   }
   .review .row .box-container .review-box {
     padding: 2rem 1rem;
@@ -201,15 +204,25 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+  section.review {
+    max-width: 80rem;
+  }
+  .review-container {
+    max-width: 80rem;
+    margin-left: -4.25rem;
+  }
   .review .row {
-    margin-left: 6.5rem;
+    margin-left: 9.5rem;
+
   }
   .review .row .content {
-    flex: 1 1 30rem;
+    flex: 1 1 20rem;
+  }
+  .content {
+    max-width: 28rem;
   }
   .review .row .box-container { 
-    margin-right: -.75rem;
-    max-width: 40rem;
+    max-width: 35rem;
   }
   .review .row .box-container .review-box {
     padding: 2rem 1rem;
@@ -223,7 +236,7 @@ iframe {
   }
   .stars {
     margin-top: 1rem;
-    margin-left: 12rem;
+    margin-left: 9rem;
   }
 }
 
@@ -244,8 +257,9 @@ iframe {
 
 @media screen and (max-width: 375px) {
       .review .row {
-        margin-left: 1.5rem;
+        margin-left: 5.5rem;
         margin-bottom: 6rem;
+        width: 42rem;
     }
 
 

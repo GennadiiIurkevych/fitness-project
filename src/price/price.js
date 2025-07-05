@@ -56,7 +56,7 @@ export default class Price {
         <button class="btn price-btn"><a href="#contactCoach" class="a-about">ЗАМОВИТИ</a></button>
       </div>
       
-      <div class="price-box" data-aos="zoom-in" data-aos-delay="300">
+      <div class="price-box price-box2" data-aos="zoom-in" data-aos-delay="300">
         <div class="box-content">
           <h3>Онлайн тренування</h3>
           <h4>500 грн.</h4>

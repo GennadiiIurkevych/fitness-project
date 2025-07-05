@@ -189,3 +189,23 @@ button.price-btn:hover {
   }
 
 }
+
+@media screen and (max-width: 375px) {
+  .price-box2 {
+    width: 640px;
+  }
+  .prices .box-container .price-box2 .box-content h4 {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    border-bottom: .1rem solid var(--text-color);
+    width: 592px; 
+  }
+  button.price-btn {
+    margin-left: 0;
+  }
+  .price-box2  button.price-btn {
+    margin-left: 11rem;
+  }
+}

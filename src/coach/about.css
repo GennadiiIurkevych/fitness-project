@@ -213,6 +213,9 @@ hr.about {
 }
 
 @media screen and (max-width: 375px) {
+  .about-section {
+    margin-top: 16rem;
+  }
   .team .box-container .team-box .trainer-info {
     margin-top: 20rem;
   }

@@ -353,9 +353,9 @@ img.snatchWoman {
     margin-left: -2rem;
   }
   .clean_jerkMan {
-    max-width: 26rem;
+    max-width: 25rem;
     margin-top: -18rem;
-    margin-left: 38rem !important;
+    margin-left: 37rem !important;
   }
   .clean-jerk span {
     margin-top: -24rem;
@@ -479,7 +479,7 @@ img.snatchWoman {
 @media screen and (max-width: 375px) {
   .weightlifting-section::before {
     margin-top: 3rem;
-    margin-right: -1rem;
+    margin-right: 1rem;
   }
   .weightlifting-section {
     display: flex;
@@ -510,9 +510,9 @@ img.snatchWoman {
     margin-top: 0rem;
   }
   .weightlifting-img {
-    max-width: 24rem;
+    max-width: 22rem;
     margin-top: 1rem;
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
   span.weightlifting {
     font-size: 3rem;

@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   padding-top: 2rem 3rem;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -12,11 +12,11 @@
 }
 
 .home-section .home-content {
-  flex: 1 1 36rem;
+  flex: 1 1 28rem;
 }
 
 .home-content .home-img {
-  flex: 1 1 40rem;
+  flex: 1 1 28rem;
 }
 
 .home-content {
@@ -89,7 +89,7 @@ span.club-name:hover {
 .home-img {
   width: 500px;
   height: 650px;
-  margin-right: 2.5rem;
+  margin-right: 1rem;
   z-index: 1;
 }
 
@@ -159,7 +159,7 @@ span.club-name:hover {
   .home-img {
     width: 28rem;
     height: 34rem;
-    margin-right: 2.5rem;
+    margin-right: 0;
   }
   .home-content p {
     max-width: 28rem;
@@ -169,7 +169,7 @@ span.club-name:hover {
     font-size: 4.5rem;
   }
   .home-section .home-content {
-    flex: 24rem
+    flex: 32rem
   }
   .home-img {
     width: 24rem;
