@@ -19,8 +19,8 @@ export default class Fitness {
             <li>Зміцнення та розвиток сили м'язів усіх груп</li>
           </ul>
 
-          <ul class="fit" data-aos="fade-right" data-aos-delay="200" id="fit">  
-            <li>Укріплення та зміцнення зв'язок та сухожилок</li>
+          <ul class="fit" data-aos="fade-right" data-aos-delay="200" >  
+            <li id="fit">Укріплення та зміцнення зв'язок та сухожилок</li>
           </ul>
 
           <hr class="fitness">
@@ -82,7 +82,7 @@ export default class Fitness {
 
         foo.append(img2);
         biceps.append(img3);
-        fit.append(img4);
+        fit.insertBefore(img4);
 
 
     }
