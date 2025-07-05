@@ -68,6 +68,7 @@ export default class Fitness {
 
         const img2 = document.createElement("img");
         const img3 = document.createElement("img");
+        const img4 = document.createElement("img");
 
         img2.className = "fitness-img";
         img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
