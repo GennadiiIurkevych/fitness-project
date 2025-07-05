@@ -56,11 +56,14 @@ ul.fit {
   line-height: 2.5rem;
   margin-right: -2rem;
 }
+ul.fit li{
+  margin-left: 45rem;
+}
 
 ul.fit img {
   max-width: 38rem;
-  margin-top: -18rem;
-  margin-left: 2rem;
+  margin-top: -24rem;
+  margin-left: -42rem;
 }
 
 ul.build {
