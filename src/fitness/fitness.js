@@ -34,7 +34,8 @@ export default class Fitness {
           <ul class="grow">
           <div id="grow"></div>
           <li data-aos="fade-up">Набір або зниження ваги тіла</li>
-          <img class="lower" data-aos="fade-up" data-aos-delay="100" src="http://localhost:1234/Folling2.e0c6ad08.png?1738494090323">   
+          <div id="lower" class="lower" data-aos="fade-up" data-aos-delay="100"></div>
+             
           </ul>
 
           <hr class="fitness">
@@ -72,6 +73,7 @@ export default class Fitness {
         const img4 = document.createElement("img");
         const img5 = document.createElement("img");
         const img6 = document.createElement("img");
+        const img7 = document.createElement("img");
 
         img2.className = "fitness-img";
         img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
@@ -81,6 +83,8 @@ export default class Fitness {
         img5.src = new URL("./img/GirlFitness.png", import.meta.url);
         img6.className = "grow";
         img6.src = new URL("./img/ManGrow.png", import.meta.url);
+        img7.className = "lower";
+        img7.src = new URL("./img/Folling2.png", import.meta.url);
 
 
         const foo = fitnessElement.querySelector("#foo");
@@ -88,6 +92,7 @@ export default class Fitness {
         const fit = fitnessElement.querySelector("#fit");
         const build = fitnessElement.querySelector("#build");
         const grow = fitnessElement.querySelector("#grow");
+        const lower = fitnessElement.querySelector("#lower");
         
 
         foo.append(img2);
@@ -95,6 +100,7 @@ export default class Fitness {
         fit.append(img4);
         build.append(img5);
         grow.append(img6);
+        lower.append(img7);
 
 
     }
