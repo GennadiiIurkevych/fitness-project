@@ -19,15 +19,16 @@ export default class Fitness {
             <li>Зміцнення та розвиток сили м'язів усіх груп</li>
           </ul>
 
-          <ul class="fit" data-aos="fade-right" data-aos-delay="200">  
-            <li id="fit">Укріплення та зміцнення зв'язок та сухожилок</li>
+          <ul class="fit" data-aos="fade-right" data-aos-delay="200"  >
+          <div id="fit"></div>  
+            <li>Укріплення та зміцнення зв'язок та сухожилок</li>
           </ul>
 
           <hr class="fitness">
 
           <ul class="build" data-aos="fade-down" data-aos-delay="50">
             <li>Атлетична фігура</li>
-            <img src="http://localhost:1234/GirlFitness.1af12e76.png?1738490567261">
+            <div id="build"></div>
           </ul>
 
           <ul class="grow">
@@ -69,20 +70,25 @@ export default class Fitness {
         const img2 = document.createElement("img");
         const img3 = document.createElement("img");
         const img4 = document.createElement("img");
+        const img5 = document.createElement("img");
 
         img2.className = "fitness-img";
         img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
         img3.src = new URL("./img/ManFitness.png", import.meta.url);
         img4.src = new URL("./img/Girl2.png", import.meta.url);
+        img5.className = "build-img";
+        img5.src = new URL("./img/GirlFitness.png", import.meta.url);
 
         const foo = fitnessElement.querySelector("#foo");
         const biceps = fitnessElement.querySelector("#biceps");
         const fit = fitnessElement.querySelector("#fit");
+        const build = fitnessElement.querySelector("#build");
         
 
         foo.append(img2);
         biceps.append(img3);
         fit.append(img4);
+        build.append(img5);
 
 
     }
