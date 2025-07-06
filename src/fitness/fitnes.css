@@ -240,9 +240,13 @@ ul.fit img {
   ul.strong {
     margin-left: -.5rem !important;
   }
-      ul.strong img {
-        margin-right: 1rem;
-    }
+  ul.strong img {
+    margin-right: 1rem;
+  }
+  .build-img {
+    max-height: 59rem;
+    margin-left: -19rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -276,13 +280,13 @@ ul.fit img {
   }
 
   ul.build img {
-    margin-left: -18rem;
-    max-height: 22rem !important;
+    margin-left: -17rem;
+    max-height: 51rem !important;
   }
   ul.grow img.grow {
     margin-top: -24rem;
     max-width: 21rem;
-    margin-right: 18rem;
+    margin-left: -42rem;
   }
   ul.grow img.lower {
     margin-top: -23rem;
@@ -344,8 +348,8 @@ ul.fit img {
 
   ul.grow img.grow {
     max-width: 24rem;
-    margin-right: 25rem;
-    margin-top: -24rem;
+    margin-left: -50rem;
+    margin-top: -30rem;
   }
 
   ul.build img {
@@ -378,6 +382,14 @@ ul.fit img {
 }
 
 @media screen and (max-width: 425px) {
+  ul.build img {
+    margin-left: -12rem;
+  }
+  ul.grow img.grow {
+    max-width: 30rem;
+    margin-left: -53rem;
+    margin-top: -34rem;
+  }
   ul.upperFit img.man {
     margin-top: 7rem;
     max-height: 27rem;
@@ -449,10 +461,9 @@ ul.fit img {
     max-width: 38rem;
   }
   ul.grow img.grow {
-    max-width: 13rem;
-    margin-top: -21rem;
-    margin-right: 9rem;
-    position: absolute;
+    max-width: 16rem;
+    margin-left: -25rem;
+    margin-top: -18rem;
   }
   ul.grow img.lower {
     padding-left: 2rem;
