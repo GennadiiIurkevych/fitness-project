@@ -118,7 +118,7 @@ ul.upperFit {
 img.man {
   max-height: 27rem;
   margin-top: 8rem;
-  margin-left: 1rem;
+  margin-left: -44rem;
   position: absolute;
 }
 
@@ -348,10 +348,12 @@ ul.fit img {
   ul.grow li {
     margin-top: -1rem;
     margin-left: -21rem !important;
-  }
-  
+  } 
   ul.upperFit {
     margin-right: 26rem;
+  }
+  img.man {
+    margin-left: -31rem;
   }
   img.girl {
     max-width: 31rem;
@@ -421,8 +423,11 @@ ul.fit img {
     margin-top: 0rem;
     margin-right: -3rem;
   }
+  img.man {
+    margin-left: -46rem;
+  }
   img.girl {
-    max-width: 36rem;
+    max-width: 35rem;
     margin-top: -27rem;
     margin-left: 39rem;
   }
@@ -458,6 +463,9 @@ ul.fit img {
   }
   ul.grow img.lower {
     margin-left: 8rem;
+  }
+  img.man {
+    max-width: 25rem;
   }
 }
 
@@ -546,12 +554,12 @@ ul.fit img {
     height: 18rem;
     max-width: 20rem !important;
     margin-top: 4rem;
-    margin-left: 0rem;
+    margin-left: 2rem;
   }
   img.girl {
-    max-width: 22rem;
-    margin-top: -19rem;
-    margin-left: 18rem;
+    max-width: 20rem;
+    margin-top: -18rem;
+    margin-left: 19rem;
   }
   ul.flexBody {
     max-width: 41rem !important;

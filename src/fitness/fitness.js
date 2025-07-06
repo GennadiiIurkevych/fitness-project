@@ -34,22 +34,21 @@ export default class Fitness {
           <ul class="grow">
           <div id="grow"></div>
           <li data-aos="fade-up">Набір або зниження ваги тіла</li>
-          <div id="lower" class="lower" data-aos="fade-up" data-aos-delay="100"></div>
-             
+          <div id="lower" class="lower" data-aos="fade-up" data-aos-delay="100"></div>  
           </ul>
 
           <hr class="fitness">
 
           <ul class="upperFit" data-aos="fade-right" data-aos-delay="200">
             <li>Підвищення функціональних спроможностей організму</li>
-            <img class="man" src="http://localhost:1234/Running.e4a82cbd.png?1743586472554">
+            <div id="man"></div>
           </ul>
 
           <ul class="flexBody" data-aos="fade-up" data-aos-delay="300"> 
             
             <li class="flexBodyLi">Розвиток гнучкості</li>
           </ul>
-          <img class="girl" data-aos="fade-up" data-aos-delay="300" src="http://localhost:1234/GirlFlex2.e1a9823a.png?1738499448682">
+          <div id="girl"></div>
 
           <hr class="fitness">
           
@@ -74,6 +73,8 @@ export default class Fitness {
         const img5 = document.createElement("img");
         const img6 = document.createElement("img");
         const img7 = document.createElement("img");
+        const img8 = document.createElement("img");
+        const img9 = document.createElement("img");
 
         img2.className = "fitness-img";
         img2.src = new URL("./img/AboutMyself.jpg", import.meta.url);
@@ -85,6 +86,10 @@ export default class Fitness {
         img6.src = new URL("./img/ManGrow.png", import.meta.url);
         img7.className = "lower";
         img7.src = new URL("./img/Folling2.png", import.meta.url);
+        img8.className = "man";
+        img8.src = new URL("./img/Running.png", import.meta.url);
+        img9.className = "girl";
+        img9.src = new URL("./img/GirlFlex2.png", import.meta.url);
 
 
         const foo = fitnessElement.querySelector("#foo");
@@ -93,6 +98,8 @@ export default class Fitness {
         const build = fitnessElement.querySelector("#build");
         const grow = fitnessElement.querySelector("#grow");
         const lower = fitnessElement.querySelector("#lower");
+        const man = fitnessElement.querySelector("#man");
+        const girl = fitnessElement.querySelector("#girl");
         
 
         foo.append(img2);
@@ -101,6 +108,8 @@ export default class Fitness {
         build.append(img5);
         grow.append(img6);
         lower.append(img7);
+        man.append(img8);
+        girl.append(img9);
 
 
     }
