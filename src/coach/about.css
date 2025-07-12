@@ -29,20 +29,24 @@
 }
 
 .team .box-container .team-box img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 1rem;
   background-color: rgb(4, 52, 119);
   margin-top: 1rem;
 }
 
-.img-about {
-  width: 48%;
-  height: 70%;
+div.img-about {
+  max-width: 80rem;
   display: flex;
-  margin-left: 2rem;
-  gap: 1rem;
+  margin-left: 1rem;
+  gap: 3rem;
+}
+
+img.img-about {
+  width: 36rem;
+}
+img.img-aboutWL {
+  width: 36rem;
 }
 
 .team .box-container .team-box .trainer-info {
@@ -140,10 +144,11 @@ hr.about {
     max-height: 32rem;
   }
   .team .box-container .team-box .trainer-info {
+    margin-top: 5rem;
     padding: 0rem;
   }
   .team .box-container .team-box img {
-    height: 73%;
+    height: 96%;
     margin-top: 1rem;
   }
   h3.coach-info {
@@ -152,7 +157,7 @@ hr.about {
   h3.coach-name {
     margin-left: 2rem;
     font-size: 1.8rem;
-    margin-top: -10rem;
+    margin-top: -9rem;
   }
   .coach-name_contact {
     margin-left: -38rem;
@@ -179,7 +184,10 @@ hr.about {
 
 @media screen and (max-width: 768px) {
   .img-about {
-    height: 96%;
+    height: 86%;
+  }
+  div.img-about {
+    gap: 3rem;
   }
   h3.coach-name {
     margin-top: -13rem;
@@ -190,7 +198,7 @@ hr.about {
     max-height: 40rem;
   }
   .team .box-container .team-box .trainer-info {
-    margin-top: -1rem;
+    margin-top: 4rem;
   }
 }
 
@@ -212,7 +220,10 @@ hr.about {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
+  .team .box-container .team-box img {
+    margin-left: 1rem;
+  }
   .about-section {
     margin-top: 16rem;
   }
@@ -222,20 +233,24 @@ hr.about {
   hr.about {
     display: block;
     position: absolute;
-    width: 94%;
+    width: 88%;
     color: rgb(4, 52, 119) !important;
-    margin-right: 18rem !important;
+    margin-right: 24rem !important;
     margin-top: 0 !important;
     height: 4px !important;
   }
+      h3.coach-name {
+        margin-left: 3rem;
+      }
       .coach-name_contact {
         margin-top: 1.5rem;
-        margin-left: -37rem;
+        margin-left: -35rem;
         font-size: 1.4rem;
     }
     .team .box-container .team-box .trainer-info .share {
       border-top: none;
       margin-left: 21rem;
+      gap: .5rem;
     }
     .team .box-container .team-box .trainer-info .share a {
         margin-top: 1.7rem;

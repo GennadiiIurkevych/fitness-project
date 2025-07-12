@@ -14,8 +14,9 @@ export default class About {
 
           <div class="team-box">
             <div class="img-about">
-              <img src="http://localhost:1234/Gennadii-Trenajer.f933a289.png?1743329297121" alt="trainer">
-              <img  src="http://localhost:1234/GennadiiWL.4e310e84.jpg?1743329501401" alt="trainer">
+              <div class="img-about" id="img-about"></div>
+              <div class="img-about" id="img-aboutWL"></div>
+              
             </div>
             <div class="trainer-info">
             
@@ -69,11 +70,19 @@ export default class About {
           aboutElement.innerHTML = this.getTemplate();
           this.aboutElement = aboutElement;
 
-    // const img = document.createElement('img');
-    //       img.className = "about-img"; 
-    //       img.src = new URL('./img/GennadiiWL.jpg', import.meta.url);
+    const imgAbout = document.createElement('img');
+          imgAbout.className = "img-about";
+    const imgAbout2 = document.createElement('img');
+          imgAbout2.className = "img-aboutWL";
+
+          imgAbout.src = new URL('./img/Gennadii-Trenajer.png', import.meta.url);
+          imgAbout2.src = new URL('./img/GennadiiWL.jpg', import.meta.url);
+
+    const about = aboutElement.querySelector("#img-about");      
+    const aboutWL = aboutElement.querySelector("#img-aboutWL");      
           
-    //       aboutElement.append(img);
+          about.append(imgAbout);
+          aboutWL.append(imgAbout2);
 
 
 

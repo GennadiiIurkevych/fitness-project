@@ -68,12 +68,18 @@ export default class Contacts {
   <div class="box-container">
     <div class="footer-box">
       <h3>Наші партнери</h3>
-      <a href="https://olimp-strong.com.ua/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-</svg><img class="img-contacts" src="http://localhost:1234/Olimp%20logo.a6db6190.png?1743357625679" alt="OLIMP"></a>
-      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-</svg></i><img class="img-contacts2" src="http://localhost:1234/Eleks.d7f0b265.png?1743856682380" alt="eleks"></a>
+      <a href="https://olimp-strong.com.ua/" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+          <div class="img-contacts" id="img-contacts"></div>
+      </a>
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+          <div class="img-contacts2" id="img-contacts2"></div>
+      </a>
     </div>
     <div class="footer-box">
       <h3>Швидкий перехід</h3>
@@ -109,7 +115,7 @@ export default class Contacts {
 </svg>yurgensport@gmail.com</a>
       <a href="https://maps.app.goo.gl/Wnw4G8XNVSMmD73x9" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
   <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-</svg>Lviv city</a>
+</svg>ОЛІМП Стрийська Львів</a>
     </div>
     <div class="footer-box" id="footer-box">
       <h3>Долучайтеся</h3>
@@ -138,11 +144,20 @@ export default class Contacts {
     contactsElement.innerHTML = this.getTemplate();
           this.contactsElement = contactsElement;
 
-    // const img = document.createElement('img');
-    //       img.className = "contacts-img"; 
-    //       img.src = new URL('./img/Olimp logo.png', import.meta.url);
+    const imgFooter = document.createElement('img');
+          imgFooter.className = "contacts-img";
+    const imgEleks = document.createElement('img');
+          imgEleks.className = "contacts-img";
           
-    //       contactsElement.append(img);
+          
+          imgFooter.src = new URL('./img/Olimp logo.png', import.meta.url);
+          imgEleks.src = new URL('./img/Eleks.png', import.meta.url);
+
+    const imgOlimp = contactsElement.querySelector("#img-contacts");     
+    const EleksImg = contactsElement.querySelector("#img-contacts2");     
+          
+          imgOlimp.append(imgFooter);
+          EleksImg.append(imgEleks);
 
 
 

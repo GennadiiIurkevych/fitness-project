@@ -190,7 +190,7 @@ button.price-btn:hover {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .price-box2 {
     width: 640px;
   }
