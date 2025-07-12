@@ -10,7 +10,7 @@ img.snatchMan {
   position: absolute;
   max-width: 38rem;
   margin-top: -1rem;
-  margin-left: 40rem;
+  margin-left: -40rem !important;
 }
 
 .weightlifting-section {
@@ -26,12 +26,16 @@ img.snatchMan {
 }
 
 .weightlifting-section::before {
-  content: url("http://localhost:1234/Olimpic420.cf73641a.png?1739224998018");
+  content: url('./img/Olimpic420.png');
   position: absolute;
   top: 12rem;
   color: var(--text-color);
   opacity: 0.08;
   margin-left: 44rem;
+}
+
+.olimpic {
+  display: none;
 }
 
 .weightlifting-section .weightlifting-content {
@@ -92,7 +96,7 @@ span.club-name:hover {
   z-index: 1;
   max-width: 28rem;
   margin-top: -41rem;
-  margin-left: 48rem;
+  margin-left: 24rem;
   position: relative;
 }
 
@@ -128,7 +132,7 @@ span.club-name:hover {
 
 .cleanMan {
   margin-left: 1rem;
-  max-width: 38%;
+  max-width: 73%;
   margin-top: -4rem;
 }
 
@@ -144,7 +148,7 @@ span.club-name:hover {
 
 .clean_jerkMan {
   margin-top: -19rem;
-  margin-left: 56rem;
+  margin-left: 28rem;
   max-width: 26rem;
 }
 
@@ -170,7 +174,7 @@ span.club-name:hover {
 }
 
 img.snatchMan {
-    max-width: 40rem;
+    max-width: 38rem;
     margin-top: -2rem;
     margin-left: 40rem;
     position: absolute;
@@ -196,7 +200,7 @@ img.snatchWoman {
 
 @media screen  and (max-width: 1321px) {
   .weightlifting-img {
-    margin-left: 45rem;
+    margin-left: 23rem;
   }
   .weightlifting-content {
     margin-left: 1rem;
@@ -205,8 +209,11 @@ img.snatchWoman {
     margin-left: 40rem;
   }
   img.snatchMan {
-    margin-left: 38rem !important;
+    margin-left: -40rem !important;
   }
+  img.snatchWoman {
+    margin-left: 0rem;
+}
 }
 
 @media screen  and (max-width: 1300px) {
