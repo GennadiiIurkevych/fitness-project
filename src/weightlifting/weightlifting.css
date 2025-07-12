@@ -315,7 +315,7 @@ img.snatchWoman {
   }
   .weightlifting-img {
     margin-top: -44rem;
-    margin-left: 31rem;
+    margin-left: 15rem;
   }
   .weightlifting-content {
     margin-left: 2rem;
@@ -334,7 +334,7 @@ img.snatchWoman {
   img.snatchMan {
     max-width: 28rem !important;
     margin-top: 0rem !important;
-    margin-left: 32rem !important;
+    margin-left: -29rem !important;
   }
   img.snatchWoman {
     max-width: 14rem !important;
@@ -357,12 +357,12 @@ img.snatchWoman {
   .cleanMan {
     max-width: 26rem;
     margin-top: -4rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
   }
   .clean_jerkMan {
     max-width: 25rem;
     margin-top: -18rem;
-    margin-left: 37rem !important;
+    margin-left: 20rem !important;
   }
   .clean-jerk span {
     margin-top: -24rem;
@@ -382,7 +382,7 @@ img.snatchWoman {
   }
   .weightlifting-img {
     margin-top: -46rem;
-    margin-left: 51rem;
+    margin-left: 25rem;
   }
   .weightlifting-content h2 {
     line-height: 2.5rem;
@@ -410,7 +410,7 @@ img.snatchWoman {
   img.snatchMan {
     max-width: 36rem !important;
     margin-top: 3rem !important;
-    margin-left: 44rem !important;
+    margin-left: -37rem !important;
   }
   .snatch p {
     max-width: 30rem !important;
@@ -421,12 +421,12 @@ img.snatchWoman {
   .cleanMan {
     max-width: 28rem;
     margin-top: -4rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
   }
   .clean_jerkMan {
     max-width: 28rem;
     margin-top: -20rem;
-    margin-left: 52rem !important;
+    margin-left: 27rem !important;
   }
   .clean-jerk span {
     margin-top: -22rem;
@@ -483,10 +483,10 @@ img.snatchWoman {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .weightlifting-section::before {
     margin-top: 3rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
   }
   .weightlifting-section {
     display: flex;
@@ -519,7 +519,7 @@ img.snatchWoman {
   .weightlifting-img {
     max-width: 22rem;
     margin-top: 1rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
   }
   span.weightlifting {
     font-size: 3rem;
@@ -530,7 +530,8 @@ img.snatchWoman {
     margin-left: 0rem !important;
   }
   img.snatchMan {
-    margin-left: -12rem !important;
+    margin-left: -13rem !important;
+    margin-top: -64rem !important;
   }
   .snatch p {
     margin-left: -13rem !important;
@@ -560,14 +561,14 @@ img.snatchWoman {
 
   .cleanMan {
     margin-top: 2rem;
-    margin-left: 1rem;
-    max-width: 82%;
+    margin-left: 0;
+    max-width: 92%;
   }
 
   .clean_jerkMan {
     max-width: 28rem;
     margin-top: 12rem;
-    margin-left: 2rem !important;
+    margin-left: 0 !important;
   }
 
 } 
