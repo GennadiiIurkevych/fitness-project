@@ -14,23 +14,21 @@ export default class Rehabilitation {
           Програма реабілітації та фізіотерапії
         </h3>
 
-        <div class="rehabilitation-img">
-          <img src="http://localhost:1234/Rehabilitation.d3ffdaf8.jpg?1741465415880" alt="image">
-        </div>
+        <div class="rehabilitation-img" id="rehabilitation-img"></div>
 
         <ul class="strong1" data-aos="zoom-in">
-            <li class="rehabilitation">Підбір вправ та розподіл навантажень для:</li>
-          </ul>
+          <li class="rehabilitation">Підбір вправ та розподіл навантажень для:</li>
+        </ul>
 
         <div class="rehabilitation-container">
 
           <ul class="strong-rehabilitation">
             <li>Виправлення постави та вад хребта</li>
-            <img src="http://localhost:1234/pngwing.com.87092c91.png?1741463736018">
+            <div id="strong-rehabilitation"></div>
           </ul>
 
           <ul class="fit-rehabilitation" data-aos="fade-down">
-          <img src="http://localhost:1234/vertebraeRentgen.bad26897.png?1741463971706">  
+            <div class="fit-rehabilitation" id="fit-rehabilitation"></div>  
             <li>Зниження та усунення больових відчуттів спини</li>
           </ul>
 
@@ -38,29 +36,26 @@ export default class Rehabilitation {
 
           <ul class="build-rehabilitation">
             <li>Відновлення рухливості хребта та суглобів</li>
-            <img class="rehabilitation" data-aos="fade-right" src=http://localhost:1234/%D0%A1%D1%83%D0%B3%D0%BB%D0%BE%D0%B1%D0%B8.b0932930.png?1741535295376">
+            <div class="rehabilitation" id="build-rehabilitation" data-aos="fade-right"></div>
           </ul>
 
           <ul class="grow-rehabilitation">
-          <li>Усунення зміщень хребців</li>
-          <img class="lower" data-aos="fade-left" src="http://localhost:1234/%D0%A5%D1%80%D0%B5%D0%B1%D0%B5%D1%82.d5261fd3.png?1741530583033">   
+            <li>Усунення зміщень хребців</li>
+            <div class="lower" id="lower" data-aos="fade-left"></div>  
           </ul>
 
-          <img class="lower-rehabilitation" src="http://localhost:1234/Lumbar3.b719343b.jfif?1741538015008">   
-          </ul>
+          <div class="lower-rehabilitation" id="lower-rehabilitation"></div>
 
           <hr class="grow-rehabilitation">
 
           <ul class="upperFit-rehabilitation">
             <li>Виправлення Х-подібних та О-подібних деформацій ніг, плоскостопості</li>
-            
-            <img class="foot" src="http://localhost:1234/ploskostopia2.d3912682.png?1741546874899">
-
-            <img class="man" src="http://localhost:1234/OandX.5be3b8e6.png?1741544999888">
+            <div class="foot" id="foot"></div> 
+            <div class="man" id="man"></div>
           </ul>
 
-          <ul class="flexBody-rehabilitation"> 
-          <img class="body-rehabilitation" src="http://localhost:1234/rehabilitation.3fb295a3.png?1741548997177">  
+          <ul class="flexBody-rehabilitation">
+          <div class="body-rehabilitation" id="body-rehabilitation"></div>   
             <li>Відновлення фізичної активності після травм, поранень</li>
           </ul>
 
@@ -87,7 +82,51 @@ export default class Rehabilitation {
 
     //       rehabilitationElement.append(img1);
 
+    const imgReh = document.createElement("img");
+    const imgReh2 = document.createElement("img");
+    const imgReh3 = document.createElement("img");
+    const imgReh4 = document.createElement("img");
+    imgReh4.className = "rehabilitation";
+    const imgReh5 = document.createElement("img");
+    imgReh5.className = "lower";
+    const imgReh6 = document.createElement("img");
+    imgReh6.className = "lower-rehabilitation";
+    const imgReh7 = document.createElement("img");
+    imgReh7.className = "foot";
+    const imgReh8 = document.createElement("img");
+    imgReh8.className = "man";
+    const imgReh9 = document.createElement("img");
+    imgReh9.className = "body-rehabilitation";
 
+    imgReh.src = new URL("./img/Rehabilitation.jpg", import.meta.url);
+    imgReh2.src = new URL("./img/pngwing.com.png", import.meta.url);
+    imgReh3.src = new URL("./img/vertebraeRentgen.png", import.meta.url);
+    imgReh4.src = new URL("./img/Суглоби.png", import.meta.url);
+    imgReh5.src = new URL("./img/Хребет.png", import.meta.url);
+    imgReh6.src = new URL("./img/Lumbar3.jfif", import.meta.url);
+    imgReh7.src = new URL("./img/ploskostopia2.png", import.meta.url);
+    imgReh8.src = new URL("./img/OandX.png", import.meta.url);
+    imgReh9.src = new URL("./img/rehabilitation.png", import.meta.url);
+
+    const rehabilitationImg = rehabilitationElement.querySelector("#rehabilitation-img");
+    const strongRehabilitation = rehabilitationElement.querySelector("#strong-rehabilitation");
+    const fitRehabilitation = rehabilitationElement.querySelector("#fit-rehabilitation");
+    const buildRehabilitation = rehabilitationElement.querySelector("#build-rehabilitation");
+    const lower = rehabilitationElement.querySelector("#lower");
+    const lowerRehabilitation = rehabilitationElement.querySelector("#lower-rehabilitation");
+    const foot = rehabilitationElement.querySelector("#foot");
+    const man = rehabilitationElement.querySelector("#man");
+    const bodyRehabilitation = rehabilitationElement.querySelector("#body-rehabilitation");
+
+    rehabilitationImg.append(imgReh);
+    strongRehabilitation.append(imgReh2);
+    fitRehabilitation.append(imgReh3);
+    buildRehabilitation.append(imgReh4);
+    lower.append(imgReh5);
+    lowerRehabilitation.append(imgReh6);
+    foot.append(imgReh7);
+    man.append(imgReh8);
+    bodyRehabilitation.append(imgReh9);
 
   }
 }

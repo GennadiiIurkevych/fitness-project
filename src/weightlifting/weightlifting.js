@@ -32,7 +32,7 @@ export default class Weightlifting {
           Перший вид програми олімпійського двоборста. Вправа характеризується швидкісно-силовою роботою і вимагає високий рівень координації та гнучкості. <br> Не важливо який у вас початковий рівень необхідних якостей, - важливо! на скільки ви готові їх опанувати.
         </p>
 
-        <div class="snatchMan" data-aos="flip-right" data-aos-delay="400" id="snatchMan"></div>   
+        <div class="snatchMan" data-aos="flip-right" data-aos-delay="50" id="snatchMan"></div>   
 
       </div>
 

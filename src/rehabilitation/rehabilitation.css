@@ -50,7 +50,7 @@ ul.fit-rehabilitation {
   margin-right: 2rem;
 }
 
-ul.fit-rehabilitation>img {
+.fit-rehabilitation>img {
   max-width: 32rem;
   margin-top: -24rem;
   margin-bottom: -.5rem;
@@ -80,14 +80,14 @@ ul.grow-rehabilitation {
 }
 
 ul.grow-rehabilitation img.lower {
-  max-height: 24rem;
-  margin-top: -20rem;
-  margin-right: 0rem;
+  max-height: 22rem;
+  margin-top: -2rem;
+  margin-left: 8rem;
 }
 
 img.lower-rehabilitation {
   height: 20rem;
-  margin-top: -27rem;
+  margin-top: -29rem;
   margin-left: 57rem;
   position: absolute;
   border-radius: 2rem;
@@ -286,9 +286,9 @@ button.btn-rehabilitation {
     margin-left: -4rem;
   }
   img.lower-rehabilitation {
-    margin-top: -26rem;
+    margin-top: -27rem;
     max-height: 18rem;
-    margin-left: 38rem;
+    margin-left: 42rem;
   }
   li.rehabilitation {
     margin: 1rem auto;
@@ -305,15 +305,16 @@ button.btn-rehabilitation {
   }
   ul.grow-rehabilitation img.lower {
     max-height: 22rem;
-    margin-top: -19rem;
-    margin-right: -3rem;
+    margin-top: -3rem;
+    margin-left: 3rem;
   }
   ul.grow-rehabilitation li {
-    margin-top: -1rem;
+    margin-top: 0;
+    width: 36rem;
   }
   ul.fit-rehabilitation img {
     max-height: 26rem;
-    margin-top: -20rem;
+    margin-top: -18rem;
   }
   ul.upperFit-rehabilitation img.man {
     max-height: 15rem;
@@ -362,8 +363,8 @@ button.btn-rehabilitation {
   }
   ul.grow-rehabilitation img.lower {
     max-height: 24rem;
-    margin-top: -22rem;
-    margin-right: 9rem;
+    margin-top: -2rem;
+    margin-left: 8rem;
     max-width: 30rem;
   }
   img.lower-rehabilitation {
@@ -371,8 +372,8 @@ button.btn-rehabilitation {
     margin-left: 58rem;
   }
   img.body-rehabilitation {
-    max-height: 26rem;
-    margin-top: -7rem;
+    max-height: 24rem;
+    margin-top: -5rem;
     margin-left: 38rem;
   }
   ul.flexBody-rehabilitation > li {
@@ -433,7 +434,7 @@ button.btn-rehabilitation {
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   ul.strong-rehabilitation img {
     margin-left: -5rem;
     max-width: 18rem;
@@ -461,10 +462,13 @@ button.btn-rehabilitation {
     margin-left: 14rem;
     max-width: 16rem;
     max-height: 16rem;
-    margin-top: -23rem;
+    margin-top: -2rem;
   }
   ul.grow-rehabilitation li {
-    margin-top: 18rem;
+            width: 19rem;
+        margin-top: 17rem;
+        margin-right: 9rem;
+        position: absolute;
   }
   ul.upperFit-rehabilitation li {
     max-width: 28rem;
@@ -476,8 +480,8 @@ button.btn-rehabilitation {
         ul.grow-rehabilitation img.lower {
         max-width: 30rem;
         max-height: 20rem;
-        margin-top: -21rem;
-        margin-right: 1rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
     }
   ul.flexBody-rehabilitation {
     max-width: 30rem;
@@ -503,7 +507,9 @@ button.btn-rehabilitation {
       button.btn-rehabilitation {
         margin-left: 9rem;
     }
-
+    hr.grow-rehabilitation {
+      margin-top: 22.5rem !important;
+    }
 }
 
 /* @media screen and (max-width: 420px) {
