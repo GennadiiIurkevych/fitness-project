@@ -56,6 +56,16 @@
   margin-right: 1rem;
 }
 
+.adding{
+  width: 9rem;
+  height: 15rem;
+  border: 2px yellow solid;
+  border-radius: 1rem;
+  padding-left: .5rem;
+}
+
+
+
 .container_login h1 {
   font-size: 36px;
   text-align: center; 

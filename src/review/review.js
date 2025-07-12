@@ -9,10 +9,10 @@ export default class Review {
     return `
   <section class="review" id="review">
 
-    <input type="radio" name="btn" id="r1" checked>
+    <input type="radio" name="btn" id="r1">
     <input type="radio" name="btn" id="r2">
     <input type="radio" name="btn" id="r3">
-    <input type="radio" name="btn" id="r4">
+    <input type="radio" name="btn" id="r4" checked>
 
     <div class="row">
 
